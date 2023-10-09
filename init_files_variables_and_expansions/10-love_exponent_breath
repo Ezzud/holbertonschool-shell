@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(expr $BREATH ** $LOVE)\n"
+printf "$(($BREATH**$LOVE))\n"
