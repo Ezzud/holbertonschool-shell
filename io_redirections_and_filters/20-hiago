@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs -0 echo | tr -d 'cC'
+xargs -0 echo | tr -d 'cC' | head -n -1
