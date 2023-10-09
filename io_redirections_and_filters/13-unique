@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs -0 echo | sort | uniq -u
+xargs -0 echo | head -n -1 | sort | uniq -u
