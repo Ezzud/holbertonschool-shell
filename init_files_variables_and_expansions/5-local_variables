@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(printenv) $(declare -f)"
+echo "$(set) $(printenv) $(declare -f)"
