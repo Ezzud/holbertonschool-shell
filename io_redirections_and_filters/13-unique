@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs echo | cut -d ' ' -f 1- | tr " " "\n" | sort | uniq -d
+xargs echo | cut -d ' ' -f 1- | tr " " "\n" | sort |  uniq -u
