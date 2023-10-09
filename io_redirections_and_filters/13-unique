@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$1" | sort -u 
+xargs echo | cut -d ' ' -f 1- |tr " " "\n" | uniq -u
